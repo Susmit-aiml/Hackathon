@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.homebox {
+    background-image: url(./assests/UPGRADE.png);
+    width: 80vw;
+    height: 800px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    left: 8vw;
+
+}
+
+.logo {
+    color: aliceblue;
+    height: 55px;
+    font-size: 40px;
+    justify-content: left;
+    top: 20px;
+    position: absolute;
+    left: 60px;
+    
+}
+
+.container {
+    display: flex;
+    color: aliceblue;
+    height: 55px;
+    font-size: 40px;
+    justify-content: right;
+    position: absolute;
+    right: 60px;
+    gap: 80px;
+    top: 20px;
+}
+
+.hm{
+    position: absolute;
+    left: 34vw;
+    bottom: 120px;
+    height: 80px;
+    width: 450px;
+    border-radius: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgba(175, 74, 201, 0.54);
+    color: aliceblue;
+    border: 0;
+    box-shadow: 1px 1px 1px gray;
+
+}
+
+.buttonbox {
+    display: flex;
+    position: absolute;
+    top: 1000px;
+    left: 8vw;
+    gap: 3.75vw;
+}
+
+.btn {
+    background-color:;
+    height: 200px;
+    width: 18vw;
+    font-size: 40px;
+    border-radius: 45px;
+    border: 14px solid rgba(175, 74, 201, 0.54);
+    cursor: pointer;
+    font-weight: 600;
+    overflow-wrap:break-word ;
+}
+
+.feature1 {
+    position: absolute;
+    top: 1400px;
+    left: 14vw;
+    display: flex;
+    gap: 10vw;
+    
+    
+}
+
+.cont {
+    width: 30vw;
+    height: 400px;
+}
+
+.upper {
+    display: flex;
+
+}
+
+.heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: rgba(175, 74, 201, 0.54);
+    padding: 55px;
+}
+
+.cap {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding: 55px;
+}
+
+.feature2 {
+    position: absolute;
+    top: 2200px;
+    left: 14vw;
+    display: flex;
+    gap: 10vw;
+    
+    
+}
+
+.str {
+    margin: 45px;
+    position: relative;
+    left: 14px;
+    border: 0;
+    background-color: rgba(175, 74, 201, 0.54);
+    height: 55px;
+    width: 5.5vw;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+svg {
+    position: relative;
+    top: 55px;
+    right: -255px;
+}
